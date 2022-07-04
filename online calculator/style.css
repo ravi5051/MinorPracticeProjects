@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width:100vw;
+    height:100vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    /* border:2px solid red; */
+}
+ 
+/* output section css start */
+
+.output{
+    width:100%;
+    height:auto;
+    border:2px solid black;
+    
+}
+
+/* result area css */
+
+.output input[type="text"]{
+    font-size:32px;
+    display:inline-block;
+    margin:5px;
+    width:76%;
+    height:55px;
+    outline:none;
+    border:1px solid black;
+    background-color: rgba(0, 59, 185, 0.568);
+    color:white;
+    
+}
+
+/* clear button css */
+
+.output input[type="button"]{
+    
+    width:20%; 
+    height:55px;
+    font-size:32px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:orange;
+    color:black;
+    
+}
+
+/* output section css end */
+
+
+/* content section start */
+.content{
+    width:100%;
+    border:2px solid black;
+    background:grey;
+}
+
+.content .number
+{
+    width: 24%;
+    height:48px;
+    margin:5px;
+    padding:5px;
+    font-size:32px;
+    font-weight: bold;
+    border-radius: 5px;
+    color:white;
+}
+.content .operator
+{
+    width: 15%;
+    height:auto;
+    margin:5px;
+    padding:5px;
+    font-size:32px;
+    font-weight: bold;
+}
+
+.content .number-color{
+    background-color: rgba(0, 59, 185, 0.568);
+    
+}
+.content .operator-color{
+    background-color:orange;
+    
+}
+.content .black-color{
+    color:black;
+}
+/* content section end */
+
+
+
+
+/* all hover property for each buttons */
+
+
+.output .clear:hover{
+    background-color: orangered;
+    color:white;
+}
+.content .number:hover{
+    background-color: white;
+    color:black;
+}
+
+.content .operator-color:hover{
+    background-color: rgba(0, 59, 185, 0.568);
+    color:white;
+}
+
+/* note section */
+
+marquee{
+    margin:10px 2px;
+    font-size: 32px;
+    color:white;
+}
+
+/* pseudo selector to give some blurness type effect of background */
+
+.box:after{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index:-1;
+}

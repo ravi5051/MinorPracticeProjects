@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+body {
+  min-height: 100vh;
+  color:aliceblue;
+  background-color: rgba(0, 0, 0, 0.838);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  font-size: 56px;
+  margin: 50px 0px;
+  color: rgb(211, 94, 94);
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 50%;
+  color: aliceblue;
+}
+.colorName {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+.colors {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.colorBox {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: cell;
+}
+.pink {
+  background-color: pink;
+  color: pink;
+}
+.blue {
+  background-color: blue;
+  color: blue;
+}
+.red {
+  background-color: red;
+  color: red;
+}
+.green {
+  background-color: green;
+  color: green;
+}
+.yellow {
+  background-color: yellow;
+  color: yellow;
+}
+.teal {
+  background-color: teal;
+  color: teal;
+}
+.sandybrown {
+  background-color: sandybrown;
+  color: sandybrown;
+}
+.purple {
+  background-color: purple;
+  color: purple;
+}
+.magenta {
+  background-color: magenta;
+  color: magenta;
+}
+.tomato {
+  background-color: tomato;
+  color: tomato;
+}
+#changer {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px;
+  color: tomato;
+  /* border:1px solid red; */
+}
+.watch{
+  font-size: 1rem;
+  margin:18px;
+  text-align: right;
+  width:90%;
+}
+.white{
+  background-color: white;
+}
+.white i{
+  font-size: 5rem;
+
+}
